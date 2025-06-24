@@ -1,12 +1,12 @@
 /* BASE STYLES */
 :root {
-  --primary: #6e45e2;
+  --primary: #4579e2;
   --secondary: #88d3ce;
   --accent: #ff7eb3;
   --text-light: #f8f9fa;
   --text-dark: #76818b;
-  --bg-gradient: linear-gradient(135deg, #e2cd45 0%, #88d3ce 100%);
-  --bg-dark: linear-gradient(255deg, #1104ff 50%, #331b73 100%);
+  --bg-gradient: linear-gradient(135deg, #e2cd45 0%, #88c1d3 100%);
+  --bg-dark: linear-gradient(255deg, #ff5404 50%, #301b73 100%);
   --card-bg: rgba(255, 255, 255, 0.9);
   --card-dark: rgba(38, 38, 39, 0.9);
 }
@@ -46,7 +46,7 @@ body.dark {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.033);
   backdrop-filter: blur(5px);
   border: none;
   cursor: pointer;
